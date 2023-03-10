@@ -10,10 +10,13 @@ window['background'] = 'white'
 
 mystring = StringVar(window)
 
+# API_KEY
+# k-rrY3CTQKjM9Ahsiip2F9T3BlbkFJUEyevlYxJQ53L4Uda6sx
+
 
 def send():
     # API KEY
-    openai.api_key = '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'
+    openai.api_key = ''
     messages = [
         {"role": "system",
          #  behaviour of the system set to kind helpful assistance
